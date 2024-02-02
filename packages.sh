@@ -19,6 +19,7 @@ FLATPAKS=(
 )
 
 DEB=(
+    'gnome tweaks'
     'google-chrome-stable'
     'thunderbird'
 
