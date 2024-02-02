@@ -23,12 +23,11 @@ unzip Dracula.zip -d ~/Downloads/Icons
 sudo cp -r ~/Downloads/Themes/Dracula ~/.themes /usr/share/themes
 sudo cp -r ~/Downloads/Icons/Dracula ~/.icons /usr/share/icons
 
-rm -rf ~/Downloads/master.zip ~/Downloads/Dracula.zip
-
-echo 'Setting on.../n'
 gsettings set org.gnome.desktop.interface gtk-theme "Dracula"
 gsettings set org.gnome.desktop.wm.preferences theme "Dracula"
+
+gsettings set org.gnome.shell.extensions.user-theme name "Dracula"
+
 gsettings set org.gnome.desktop.interface icon-theme "Dracula"
 
-sudo bash -c  "$(wget -qO- https://git.io/vQgMr)"
 
