@@ -11,7 +11,6 @@ SNAPS=(
 
     'code'
     'insomnia'
-    'node'
 )
 
 FLATPAKS=(
@@ -30,7 +29,6 @@ DEB=(
 
     'zsh'
     'dconf-cli'
-    'vim'
 )
 
 for SNAPS in "${SNAPS[@]}"; do
